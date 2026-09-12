@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# SAEKA SSH GATEWAY DEPLOYER (CLOUD RUN EDITION)
+# BOYSUPOTPH SSH GATEWAY DEPLOYER (CLOUD RUN EDITION)
 # ENGINEERED BY SAEKA TOJIRP
 # ==============================================================================
 
@@ -37,7 +37,7 @@ echo ""
 echo -e "  ${CYAN}==================================================${NC}"
 echo -e "  ${GREEN}                 SERVICE NAME${NC}"
 echo -e "  ${CYAN}==================================================${NC}"
-read -r -p "$(echo -e "  ${CYAN}SERVICE NAME [saeka]: ${RESET}")" INPUT_NAME
+read -r -p "$(echo -e "  ${CYAN}SERVICE NAME [boysupot]: ${RESET}")" INPUT_NAME
 SERVICE_NAME=${INPUT_NAME:-saeka}
 echo ""
 
