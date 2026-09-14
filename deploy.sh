@@ -38,7 +38,7 @@ echo -e "  ${CYAN}==================================================${NC}"
 echo -e "  ${GREEN}                 SERVICE NAME${NC}"
 echo -e "  ${CYAN}==================================================${NC}"
 read -r -p "$(echo -e "  ${CYAN}SERVICE NAME [boysupot]: ${RESET}")" INPUT_NAME
-SERVICE_NAME=${INPUT_NAME:-saeka}
+SERVICE_NAME=${INPUT_NAME:-boysupot}
 echo ""
 
 echo -e "  ${CYAN}==================================================${NC}"
