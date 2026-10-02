@@ -11,7 +11,7 @@ RUN git clone https://github.com/ambrop72/badvpn.git /tmp/badvpn \
     && cmake .. -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_UDPGW=1 \
     && make install && rm -rf /tmp/badvpn
 
-# Setup SSH and Saeka User
+# Setup SSH and Boysupotph User
 RUN mkdir -p /var/run/sshd
 RUN useradd -m -s /bin/bash master && echo 'master:boysupot' | chpasswd
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
