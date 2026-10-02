@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
 # BOYSUPOTPH SSH GATEWAY DEPLOYER (CLOUD RUN EDITION)
-# ENGINEERED BY SAEKA TOJIRP
+# ENGINEERED BY MASTER BILLY
 # ==============================================================================
 
 BOLD='\033[1m'; RESET='\033[0m'; NC='\033[0m'
@@ -23,7 +23,7 @@ loading() {
 clear
 echo ""
 echo -e "  ${BOLD}${WHITE}BOYSUPOTPH SSH GATEWAY DEPLOYER (QWIKLABS OPTIMIZED)${RESET}"
-echo -e "  ${MAGENTA}ENGINEERED BY SAEKA TOJIRP${RESET}"
+echo -e "  ${MAGENTA}ENGINEERED BY MASTER BILLY${RESET}"
 echo ""
 
 PROJECT_ID=$(gcloud config get-value project 2>/dev/null | tr -d '[:space:]')
@@ -127,7 +127,7 @@ SERVICE_URL=$(gcloud run services describe "$SERVICE_NAME" --region "$REGION" --
 CLEAN_HOST=$(echo "$SERVICE_URL" | sed 's|https://||')
 
 echo ""
-echo -e "  ${GREEN} (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠) DEPLOYED SUCCESSFULLY${RESET}"
+echo -e "  ${GREEN} (⁠⁠🌍⁠) DEPLOYED SUCCESSFULLY${RESET}"
 echo ""
 echo -e "  ${CYAN}SERVICE      ${GREEN}${SERVICE_NAME}${RESET}"
 echo -e "  ${CYAN}RAW HOST     ${GREEN}${CLEAN_HOST}${RESET}"
